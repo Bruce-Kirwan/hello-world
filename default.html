@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home page for software installation website</title>
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <script src="site.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <div id="menu-i">
+            <span id="hamburgerIcon" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+    </div>
+
+		<div id="canvas">
+			<div id="canvas-i">
+				<canvas id='starfield'>
+					Your browser does not support the HTML5 Canvas element.
+					Please update your browser.
+				</canvas>
+			</div>
+		</div>
+		
+        <nav id="main-contents">
+            <div id="main-contents-i">
+                <a href="default.html">Home</a>
+                <a href="Accomodations.html">Accomodations</a>
+                <a href="FoodAndDrink.html">Food and Drink</a>
+                <a href="GettingAround.html">Getting Around</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        <nav id="main-nav" vertical-align=top>
+            <div id="main-nav-i" vertical-align=top>
+                <ul>
+                    <li><a href="default.html">Home</a></li>
+                    <li><a href="Accomodations.html">Accomodations</a></li>
+                    <li><a href="FoodAndDrink.html">Food and Drink</a></li>
+                    <li><a href="GettingAround.html">Getting Around</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+		<div id="closebtn"  onclick="closeNav()">
+			<span>
+				&nbsp;
+				&times;
+				&nbsp;
+			</span>
+		</div>
+
+    <div id="wrapper">
+
+        <div id="main-content">
+            <div id="main-content-i">
+                <p>&nbsp;</p>
+                <div id="slideshow">
+                    <div id="slide-img">
+                        <img src="slideshowImages/slide-alexanderplatz.jpg" alt="1. Alexanderplatz" />
+                        <img src="slideshowImages/slide-berlin-spree.jpg" alt="2. Berlin Spree" />
+                        <img src="slideshowImages/slide-brandenburg-gate.jpg" alt="3. Brandenburg Gate" />
+                        <img src="slideshowImages/slide-government-building.jpg" alt="4. Government Building" />
+                        <img src="slideshowImages/slide-town-hall.jpg" alt="5. Town Hall" />
+                    </div>
+                    <div id="slide-buttons">
+                        <a class="slide-buttons prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="slide-buttons next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside id="main-aside">
+            <div id="main-aside-i">
+                <div>
+                    <strong>Must do this week!</strong>
+                    &nbsp;
+                </div>
+                <div>
+                    &nbsp;
+                    <hr />
+                    <a href="https://www.bauhaus100.com"><img class="image-width" src="images/csm_12_Presse_bauhaus100_Programm_87c6bf22ff.jpg" alt="Bauhaus100" />Bauhaus100 (image courtesy of Bauhaus100.com press images)</a>
+                </div>
+                <div>
+                    &nbsp;
+                    <hr />
+                    <a href="https://www.zoo-berlin.de/en"><img class="image-width" src="images/zoo-orig.jpg" alt="Berlin Zoo" />Zoo Berlin</a>
+                </div>
+                <div>
+                    &nbsp;
+                    <hr />
+                    <a href="https://www.olympiastadion.berlin/en/home/"><img class="image-width" src="images/alexanderplatz-orig.jpg" alt="Olympic Stadium" />Olympia Stadium</a>
+                </div>
+            </div>
+        </aside>
+        <div class="lid">&nbsp;</div>
+        <footer id="main-footer">
+            <div id="main-footer-i">
+                <div>
+                    Author: Bruce Kirwan
+                </div>
+                <div>
+                    Web Development Assignment - Berlin city
+                </div>
+                <div>
+                    18th July 2019
+                </div>
+                <div>
+                    copyright Berlin Marketing Group
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

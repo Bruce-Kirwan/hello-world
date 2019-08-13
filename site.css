@@ -1,0 +1,291 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#canvas {
+	width:100%;
+}
+/*
+#slideshow, #slideshow img .slide-buttons {
+    // height: 140px;
+    line-height: 140px;
+    overflow: hidden;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#wrapper {
+    max-width: 1750px;
+    margin: auto;
+}
+
+img {
+    width: 45%;
+    float: right;
+}
+
+p {
+    float: left;
+}
+
+.lid {
+    clear: both;
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+// Style the buttons that are used to open and close the accordion panel 
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+    // Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+// Style the accordion panel. Note: hidden by default 
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+    .panel ul {
+        position: relative;
+    }
+
+#main-nav {
+    display:none;
+//    width: 10%;
+//    float: left;
+}
+/*
+
+#main-nav-i ul {
+    position: relative;
+}
+
+#main-nav-i ul {
+    list-style: none;
+}
+
+#main-nav-i a {
+    display: block;
+    background-color: darkslategrey;
+    width: 120px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    line-height: 35px;
+    border: 1px solid green;
+    font-weight: bold;
+}
+
+    #main-nav-i a:hover {
+        background-color: grey;
+        text-decoration: underline;
+    }
+
+#main-nav-i #closebtn {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+    font-size: 60px;
+    z-index: 999;
+    display: none;
+}
+    */
+#menu-i #hamburgerIcon {
+    float: right;
+    display: none;
+}
+
+/*
+#main-content {
+    float: left;
+    width: 65%;
+    height: 100%;
+}
+
+#main-content-i p {
+    float: left;
+    width: 49%;
+}
+
+#main-content-i ul {
+    list-style-position: inside;
+}
+
+#main-aside {
+    width: 25%;
+    float: right;
+}
+
+.image-width {
+    width: 100%;
+}
+
+#slideshow {
+    //margin: none;
+    background-color: aliceblue;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+
+    #slideshow img {
+        transition: 1.5s;
+        width: 100%;
+    }
+
+
+.slide-buttons {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+    .slide-buttons:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+#slide-img {
+}
+
+    #slide-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+#main-footer {
+    text-align: center;
+}
+
+*/
+
+@media only screen and (max-width: 600px) {
+
+#canvas {
+	display:none;
+}
+    #main-nav {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+		margin : 0 auto;
+		vertical-align:text-top;
+    }
+    
+
+#main-nav-i ul {
+    position: relative;
+    height: 100%;
+			vertical-align:text-top;
+}
+
+#main-nav-i li {
+    height:100%;
+}
+
+#main-nav-i a {
+    display: block;
+    text-align: center;
+	vertical-align: top;
+    color: grey;
+    text-decoration: none;
+    height: 100%;
+    line-height: 100px;
+    font-weight: bold;
+	margin : 0 auto;
+	vertical-align: text-top;
+}
+
+ #main-nav-i a:hover {
+        background-image: radial-gradient(darkslategrey,black);
+        color: white;
+			vertical-align: text-top;
+    }
+
+#closebtn {
+    display: block;
+	text-align:right;
+	color:grey;
+	position: absolute;
+	top: 0px;
+    right: 0px;
+    font-size: 50px;
+    z-index: 999;
+}
+
+
+#closebtn span:hover {
+        background-image: radial-gradient(darkslategrey,black);
+        color: white;
+}
+
+
+    #menu-i #hamburgerIcon {
+        display: inline;
+    }
+
+    #main-nav-i #closebtn {
+        display: block;
+    }
+
+    #main-content {
+        background-color: aliceblue;
+        float: left;
+        width: 100%;
+    }
+
+    #main-aside {
+        float: left;
+        width: 100%;
+    }
+
+    .col-container {
+        display: block;
+        width: 100%;
+    }
+
+    .col {
+        display: block;
+    }
+}
